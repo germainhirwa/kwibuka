@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // ===== COUNTDOWN TIMER =====
-  const eventDate = new Date('2026-04-07T17:00:00-04:00'); // April 7, 2026 5:00 PM ET
+  const eventDate = new Date('2026-04-23T17:00:00-04:00'); // April 23, 2026 5:00 PM ET
 
   const daysEl = document.getElementById('days');
   const hoursEl = document.getElementById('hours');
