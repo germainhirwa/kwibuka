@@ -437,6 +437,24 @@ p {
   color: #fff;
 }
 
+.hero-cta-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+}
+
+.hero-cta-rsvp {
+  background: var(--accent-gold);
+  color: #0a0a0f;
+}
+
+.hero-cta-rsvp:hover {
+  background: var(--accent-gold-light);
+  box-shadow: 0 8px 30px var(--accent-gold-glow);
+  color: #0a0a0f;
+}
+
 /* Countdown */
 .countdown {
   display: flex;
